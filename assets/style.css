@@ -1,0 +1,141 @@
+/* Font */
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+/* BODY */
+body {
+  background-color: #faf5d3;
+  font-family: "Oswald", sans-serif;
+}
+/* HEADER */
+header {
+  background-color: #acbbb8;
+}
+/* Navbar */
+nav {
+  display: flex;
+  background-color: #acbbb8;
+  padding: 10px 10px;
+  justify-content: space-between;
+}
+.brand-name {
+  color: #2c4452;
+}
+nav ul {
+  width: 30%;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #f9ebcc;
+}
+nav ul li a:hover {
+  font-weight: bold;
+}
+/* Jumbotron */
+.jumbotron {
+  height: 5%;
+  padding: 50px;
+  background-color: #acbbb8;
+  background-image: url(../assets/wave.svg);
+}
+.jumbotron mark {
+  background-color: #faf5d3;
+}
+/* Article */
+#content,
+#about-us {
+  width: 70%;
+}
+.card {
+  background-color: #e8a38d;
+  text-align: justify;
+  padding: 50px;
+  box-shadow: 0 4px 8px 0 rgba(18, 54, 84, 0.5);
+  margin-top: 20px;
+}
+.card h2,
+.card h3 {
+  text-align: center;
+}
+.card h3 {
+  font-weight: normal;
+}
+.symptoms {
+  display: flex;
+}
+.list ol li {
+  margin-left: 15px;
+}
+.list.dua {
+  margin-left: 20px;
+}
+cite a {
+  text-decoration: none;
+  color: black;
+}
+cite a:hover {
+  color: #f7f5de;
+}
+.card mark {
+  background-color: #faf5d3;
+}
+/* Aside */
+aside {
+  width: 30%;
+  padding: 20px;
+  float: right;
+  position: absolute;
+  top: 300px;
+  left: 70%;
+}
+.profile header {
+  background-color: #e8a38d;
+  padding: 10px;
+}
+figure img {
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h2,
+figcaption {
+  text-align: center;
+}
+/* About us */
+#about-us img {
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.page ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.page ul li {
+  margin: 2px;
+}
+#about-us .page img {
+  width: 32px;
+}
+/* Footer */
+footer{
+  background-color: #acbbb8;
+  padding: 10px;
+  text-align: center;
+}
