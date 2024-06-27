@@ -1,6 +1,6 @@
 # Submission: Tugas Akhir Membuat Website
 
-This repository was created to fulfill the requirements for passing the basic web programming learning class from Dicoding Indonesia.
+This repository was created to fulfill the requirements for passing the Dasar Pemrograman Web learning class from Dicoding Indonesia.
 
 A social media account taulebih.id was used as a source of ideas for this simple web profile. The reason for choosing taulebih.id as a source of ideas was because taulebih.id had a focus on Islamic-based sexuality education, so at that time I wanted to create a web profile so that the taulebih.id platform could be reached more widely by the Indonesian people.
 
